@@ -53,7 +53,7 @@ export const PostPage = () => {
                     ) : (
                         <p className="title three">Escolha uma Notícia.</p>
                     )}
-                        <div dangerouslySetInnerHTML={renderContentWithHTML(postContent)}/>
+                        {/* <div dangerouslySetInnerHTML={renderContentWithHTML(postContent)}/> */}
                     </>
                 )}
             </div>
